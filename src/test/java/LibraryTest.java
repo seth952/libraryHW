@@ -40,7 +40,7 @@ public class LibraryTest {
         library.addBook(book);
         library.addBook(book);
         library.addBook(book);
-        assertEquals();
+        assertEquals(3, library.bookCount());
     }
 
 }
